@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,600italic' rel='stylesheet' type='text/css'>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="/bxslider/jquery.bxslider.min.js"></script>
+    <link href="/css/jquery.bxslider.css" rel="stylesheet" />
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.slider,.minislider').bxSlider({mode: 'fade'});
+        });
+    </script>
+</head>
+<body>
+<wrapper class="wrapper">
+    <header id="header">
+        <div class="container">
+            <a href="#"><img class="logo" src="frontend/images/logo.png" alt="Autor" /></a>
+                <div class="nav">
+                    <ul>
+                     <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">Service</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+        </div>
+        <div class="info-slider">
+            <ul class="bxslider">
+                <li>
+                    <div class="container">
+                        <h1>This is a main heading</h1>
+                        <p>Lorem ipsum is simply dummy text<br>of the printing</p>
+                        <a href="#" class="button">Learn More</a>
+                    </div>
+                </li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </header>
+</wrapper>
+</body>
+</html>
