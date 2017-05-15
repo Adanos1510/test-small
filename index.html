@@ -10,44 +10,165 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,600italic' rel='stylesheet' type='text/css'>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
     <script src="/bxslider/jquery.bxslider.min.js"></script>
-    <link href="/css/jquery.bxslider.css" rel="stylesheet" />
+    <link href="/bxslider/jquery.bxslider.css" rel="stylesheet" />
     <script type="text/javascript">
         $(document).ready(function(){
             $('.slider,.minislider').bxSlider({mode: 'fade'});
         });
     </script>
+    <link rel="stylesheet" href="frontend/fonts/font-awesome/css/font-awesome.min.css">
+    <script type="text/javascript" src="frontend/js/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="frontend/js/jquery.main.js"></script>
 </head>
 <body>
-<wrapper class="wrapper">
+
     <header id="header">
         <div class="container">
             <a href="#"><img class="logo" src="frontend/images/logo.png" alt="Autor" /></a>
                 <div class="nav">
+                    <a href="#" class="opener"><span>Menu</span></a>
                     <ul>
-                     <li class="active"><a href="#">Home</a></li>
-                        <li><a href="#">Service</a></li>
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">Team</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <div class="drop">
+                            <li class="active"><a href="#">Home</a></li>
+                            <li><a href="#">Service</a></li>
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#">Team</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contact</a></li>
                     </ul>
+                        </div>
                 </div>
         </div>
         <div class="info-slider">
-            <ul class="bxslider">
-                <li>
                     <div class="container">
                         <h1>This is a main heading</h1>
                         <p>Lorem ipsum is simply dummy text<br>of the printing</p>
-                        <a href="#" class="button">Learn More</a>
+                        <a href="#" class="button_header">Learn More</a>
                     </div>
-                </li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
         </div>
     </header>
-</wrapper>
+    <main id="main">
+        <div class="container">
+            <h2>The Team</h2>
+            <div class="row">
+                <div class="col">
+                    <div class="image-holder">
+                        <a href="#" class="circle"><i class="fa fa-plus" aria-hidden="true"></i></a>
+                    </div>
+                    <h3>Name Name</h3>
+                    <p>CEO & Founder</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt aspernatur eius a, accusamus mollitia iure amet tenetur est repellendus molestias adipisci voluptate ea praesentium excepturi ratione quidem ducimus rem blanditiis!</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="image-holder">
+                        <a href="#" class="circle"><i class="fa fa-plus" aria-hidden="true"></i></a>
+                    </div>
+                    <h3>Name Name</h3>
+                    <p>Creative Director</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt aspernatur eius a, accusamus mollitia iure amet tenetur est repellendus molestias adipisci voluptate ea praesentium excepturi ratione quidem ducimus rem blanditiis!</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="image-holder">
+                        <a href="#" class="circle"><i class="fa fa-plus" aria-hidden="true"></i></a>
+                    </div>
+                    <h3>Name Name</h3>
+                    <p>CEO & Founder</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt aspernatur eius a, accusamus mollitia iure amet tenetur est repellendus molestias adipisci voluptate ea praesentium excepturi ratione quidem ducimus rem blanditiis!</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="image-holder">
+                        <a href="#" class="circle"><i class="fa fa-plus" aria-hidden="true"></i></a>
+                    </div>
+                    <h3>Name Name</h3>
+                    <p>Creative Director</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt aspernatur eius a, accusamus mollitia iure amet tenetur est repellendus molestias adipisci voluptate ea praesentium excepturi ratione quidem ducimus rem blanditiis!</p>
+                </div>
+            </div>
+        </div>
+        <div class="main_buttom">
+        <div class="container">
+            <div class="row">
+                <div class="col_price">
+                    <h3>Basic</h3>
+                    <h4>&#36 5.01/ Month</h4>
+                    <ul>
+                        <li><p>Lorem ipsum</p></li>
+                        <li><p>dolor sit amet</p></li>
+                        <li><p>adipisicing elit</p></li>
+                        <li><p>Lorem ipsum</p></li>
+                        <li><p>dolor sit amet</p></li>
+                        <li><p>adipisicing elit</p></li>
+                        <li class="key"><button type="submit">Buy now</button></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col_price active">
+                    <h3>Pro</h3>
+                    <h4>&#36 10.01/ Month</h4>
+                    <ul>
+                        <li><p>Lorem ipsum</p></li>
+                        <li><p>dolor sit amet</p></li>
+                        <li><p>adipisicing elit</p></li>
+                        <li><p>Lorem ipsum</p></li>
+                        <li><p>dolor sit amet</p></li>
+                        <li><p>adipisicing elit</p></li>
+                        <li class="key"><button type="submit">Buy now</button></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col_price">
+                    <h3>Premium</h3>
+                    <h4>&#36 20.01/ Month</h4>
+                    <ul>
+                        <li><p>Lorem ipsum</p></li>
+                        <li><p>dolor sit amet</p></li>
+                        <li><p>adipisicing elit</p></li>
+                        <li><p>Lorem ipsum</p></li>
+                        <li><p>dolor sit amet</p></li>
+                        <li><p>adipisicing elit</p></li>
+                        <li class="key"><button type="submit">Buy now</button></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+    <footer id="footer">
+        <div class="container">
+            <h2>Contacts Us</h2>
+            <div class="connect">
+                <h3>Get in touch with us</h3>
+                <p>Lorem ipsum dolor sit amet adipisicing elit Lorem ipsum dolor<br> sit amet adipisicing elit</p>
+                <div class="social_networks">
+                    <a href="#"><img class="facebbok" src="frontend/images/facebook.png" alt="facebook" /></a>
+                    <a href="#"><img class="twitter" src="frontend/images/twitter.png" alt="twitter" /></a>
+                    <a href="#"><img class="google" src="frontend/images/google.png" alt="google" /></a>
+                </div>
+                <div class="connect_info">
+                    <p>Posted by Dospel & Ganjaparker</p>
+                    <p>+ XX-XXX-XXXXX-XX</p>
+                    <p>info@mail.com</p>
+                </div>
+            </div>
+            <div class="form">
+                <textarea rows="1" class="email placeholder" placeholder=Email></textarea>
+                <textarea rows="1" class="name placeholder" placeholder=Name></textarea>
+                <textarea rows="5" class="message placeholder" placeholder=Message></textarea>
+                <button type="submit">Send</button>
+            </div>
+        </div>
+    </footer>
+
 </body>
 </html>
+
+
+

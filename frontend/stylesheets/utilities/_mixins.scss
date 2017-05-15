@@ -38,3 +38,6 @@
 @mixin bp($point, $type: max) {
   @media screen and (#{$type}-width: #{$point}px) {@content;}
 }
+@mixin {
+
+}
